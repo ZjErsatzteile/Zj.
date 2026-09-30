@@ -1,12 +1,14 @@
-GITHUB PAGES – BILDER-FIX
+FÜR REPOSITORY ZjErsatzteile/Zj
 
-WICHTIG:
-- Den INHALT dieser ZIP ins Repository kopieren.
-- index.html muss direkt im Repository-Hauptverzeichnis liegen.
-- Der Ordner images MUSS vollständig hochgeladen werden.
-- GitHub Pages: Settings > Pages > Deploy from a branch > main > / (root).
-- Danach einige Minuten warten und die Seite mit Strg+F5 bzw. Hard Reload neu laden.
+Diese Version ist für die vorhandene GitHub-Struktur angepasst:
+- index.html im Repository-Root
+- alle JPG-Bilder ebenfalls im Repository-Root
+- keine assets/parts/-Pfade
+- keine externen Bildquellen
 
-Diese Version verwendet lokale Bilder aus:
-images/
-Es werden keine externen Bildquellen benötigt.
+Beim Hochladen:
+1. ZIP entpacken.
+2. Alle Dateien in https://github.com/ZjErsatzteile/Zj hochladen.
+3. Vorhandene index.html/style.css/script.js ersetzen.
+4. Die JPG-Dateien im Root lassen.
+5. GitHub Pages muss vom Branch main aus dem Root (/) veröffentlichen.
